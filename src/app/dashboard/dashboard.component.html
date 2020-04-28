@@ -1,5 +1,14 @@
 <mat-sidenav-container class="container" [hasBackdrop]="hasBackdrop.value">
-  <mat-sidenav #drawer [mode]="mode.value">I'm a drawer</mat-sidenav>
+  <mat-sidenav #drawer [mode]="mode.value">
+    I'm a sidenav
+    <ul>
+      <li>Item 1</li>
+      <li>Item 2</li>
+      <li>Item 3</li>
+      <li>Item 4</li>
+      <li>Item 5</li>
+    </ul>
+  </mat-sidenav>
   <mat-sidenav-content>
     <mat-form-field>
       <mat-label>Sidenav mode</mat-label>
