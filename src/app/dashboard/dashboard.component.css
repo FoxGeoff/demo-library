@@ -1,0 +1,11 @@
+.container {
+  height: 100%;
+}
+
+mat-drawer-content {
+  min-width: 250px;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}

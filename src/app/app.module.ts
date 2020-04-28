@@ -6,11 +6,19 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatSliderModule } from '@angular/material/slider';
 import { MatButtonModule } from '@angular/material/button';
+import { MatSidenavModule } from '@angular/material/sidenav';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatInputModule } from '@angular/material/input';
+import { MatSelectModule } from '@angular/material/select';
+
 import { FlexLayoutModule } from '@angular/flex-layout';
+
+import { DashboardComponent } from './dashboard/dashboard.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    DashboardComponent
   ],
   imports: [
     BrowserModule,
@@ -18,6 +26,11 @@ import { FlexLayoutModule } from '@angular/flex-layout';
     BrowserAnimationsModule,
     MatSliderModule,
     MatButtonModule,
+    MatSidenavModule,
+    MatFormFieldModule,
+    MatInputModule,
+    MatSelectModule,
+
     FlexLayoutModule
   ],
   providers: [],

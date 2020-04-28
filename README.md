@@ -10,3 +10,5 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 * <https://github.com/angular/flex-layout>
 * <https://tburleson-layouts-demos.firebaseapp.com/#/docs>
+
+## Setup sidenav component
