@@ -3,3 +3,10 @@
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.1.
 
 ## Setup Angular Material
+
+* <https://material.angular.io>
+
+## Setup Flex Layout
+
+* <https://github.com/angular/flex-layout>
+* <https://tburleson-layouts-demos.firebaseapp.com/#/docs>
