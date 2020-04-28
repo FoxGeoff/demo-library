@@ -21,6 +21,7 @@
         <a routerLink=".">Logout</a>
       </mat-toolbar-row>
     </mat-toolbar>
+    <div class="form">
     <mat-form-field>
       <mat-label>Sidenav mode</mat-label>
       <mat-select #mode value="side">
@@ -37,6 +38,9 @@
         <mat-option [value]="false">False</mat-option>
       </mat-select>
     </mat-form-field>
+
     <button mat-raised-button (click)="drawer.toggle()">Toggle drawer</button>
+
+  </div>
   </mat-sidenav-content>
 </mat-sidenav-container>
