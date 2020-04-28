@@ -12,3 +12,5 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 * <https://tburleson-layouts-demos.firebaseapp.com/#/docs>
 
 ## Setup sidenav component
+
+## Add Mat Toolbar

@@ -10,6 +10,7 @@ import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { MatSelectModule } from '@angular/material/select';
+import { MatToolbarModule } from '@angular/material/toolbar';
 
 import { FlexLayoutModule } from '@angular/flex-layout';
 
@@ -30,6 +31,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
     MatFormFieldModule,
     MatInputModule,
     MatSelectModule,
+    MatToolbarModule,
 
     FlexLayoutModule
   ],
